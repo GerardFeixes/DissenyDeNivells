@@ -37,6 +37,7 @@ public class RefractionCube : MonoBehaviour
                 l_RaycastHit.collider.GetComponent<RefractionCube>().CreateRefraction();
             }
 
+
             /*
             if (l_RaycastHit.collider.tag == "Turret")
             {
@@ -44,7 +45,7 @@ public class RefractionCube : MonoBehaviour
             }
             */
 
-           // if (l_RaycastHit.collider.tag == "RefractionButton" && !l_RaycastHit.collider.GetComponent<ButtonController>().stop) l_RaycastHit.collider.GetComponent<ButtonController>().TriggerLaser();
+           // if (l_RaycastHit.collider.tag == "RefractionButton" /*&& !l_RaycastHit.collider.GetComponent<ButtonController>().stop*/) l_RaycastHit.collider.GetComponent<ButtonController>().TriggerLaser();
             //Other collisions
         }
         m_LineRenderer.SetPosition(1, l_EndRaycastPosition);
